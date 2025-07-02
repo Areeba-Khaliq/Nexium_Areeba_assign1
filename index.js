@@ -24,3 +24,18 @@ async function fetchData() {
 }
 
 fetchData();
+
+async function insertData(name) {
+    const { data, error } = await supabase
+        .from('test_table')
+        .insert([{ name }]);
+
+    if (error) {
+        console.error('❌ Insert error:', error);
+    } else {
+        console.log('✅ Inserted data:', data);
+    }
+}
+
+// Example usage:
+insertData('New Bootcamp Entry');
