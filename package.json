@@ -1,0 +1,25 @@
+{
+  "name": "nexium_areeba_assign1",
+  "version": "1.0.0",
+  "description": "Nexium Bootcamp Day 1 setup with Supabase connection",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "nexium",
+    "bootcamp",
+    "supabase",
+    "nodejs"
+  ],
+  "author": "Areeba",
+  "license": "MIT",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.42.5",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.9"
+  }
+}
