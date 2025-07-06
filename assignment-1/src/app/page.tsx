@@ -135,11 +135,11 @@ export default function QuoteGenerator() {
       </h1>
 
       <div className="flex flex-col sm:flex-row gap-3 w-full max-w-sm">
-      <select
+      <select 
+          title="Select a topic"
           value={topic}
           onChange={(e) => setTopic(e.target.value)}
-          className="rounded-lg border-2 border-purple-400 p-2 w-full focus:ring-2 focus:ring-purple-500 focus:outline-none"
-      >
+          className="rounded-lg border-2 border-purple-400 p-2 w-full focus:ring-2 focus:ring-purple-500 focus:outline-none">
 
           <option value="">Select a topic (optional)</option>
           {Object.keys(topicQuotes).map((t) => (
