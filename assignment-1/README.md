@@ -8,8 +8,7 @@ A simple, clean **motivational quote generator** built during the Nexium Bootcam
 
 ✅ Enter a topic (success, failure, happy, sad, anxious, joy, adventure, or general)  
 ✅ Displays **3 random motivational quotes** per topic from a local array  
-✅ Fully **responsive and clean UI using ShadCN**  
-✅ **Dark mode and light mode toggle**  
+✅ Fully **responsive and clean UI using ShadCN**
 ✅ **Deployed on Vercel for live preview**
 
 ---
