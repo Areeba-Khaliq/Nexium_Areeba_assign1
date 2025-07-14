@@ -31,7 +31,7 @@ A simple, clean **motivational quote generator** built during the Nexium Bootcam
 
 ## 🖥️ Live Demo
 
-[🚀 View deployed app on Vercel](https://quote-generator-ruddy-xi.vercel.app/)
+[🚀 View deployed app on Vercel](https://areeba-nexium-assign1.vercel.app/)
 
 ---
 
