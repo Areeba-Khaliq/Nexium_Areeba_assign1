@@ -16,10 +16,17 @@
   "author": "Areeba",
   "license": "MIT",
   "dependencies": {
+    "@shadcn/ui": "^0.0.4",
     "@supabase/supabase-js": "^2.42.5",
-    "dotenv": "^16.4.5"
+    "axios": "^1.10.0",
+    "cheerio": "^1.1.0",
+    "dotenv": "^16.4.5",
+    "mongodb": "^6.17.0"
   },
   "devDependencies": {
-    "@types/node": "^24.0.9"
+    "@types/node": "^24.0.9",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.11"
   }
 }
